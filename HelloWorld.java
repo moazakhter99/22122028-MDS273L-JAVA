@@ -1,4 +1,4 @@
-package Basics;
+package Java_Lab;
 // Your First Program
 
 class HelloWorld { // Class Name

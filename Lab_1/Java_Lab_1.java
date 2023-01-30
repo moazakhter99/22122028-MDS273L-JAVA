@@ -52,8 +52,6 @@ public class Java_Lab_1 {
             case "West Bengal":
                  System.out.println("The student is from Eastern state of India");    
                  System.out.println("The details of the student is: " + "\n" + age + "\n"+ name + "\n" + gender);    
-            default:    
-                System.out.println("Other region");
         }
  
     

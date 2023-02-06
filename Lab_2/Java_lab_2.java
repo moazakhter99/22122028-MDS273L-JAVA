@@ -1,7 +1,3 @@
-package Java_Lab.Lab_2;
-
-
-
 import java.util.Scanner;
 
 public class Java_lab_2 {

@@ -6,10 +6,6 @@ public class Java_lab_2 {
   static int count = 0;
 
   public static void main(String[] args) {
-    System.out.println("Press 1 to Enter Name");
-    System.out.println("To Search a Name Press 2");
-    System.out.println("To Remove a name Press 3");
-    System.out.print("To Exit press 4");
     do {
       printMenu();
       int option = sc.nextInt();
@@ -31,7 +27,12 @@ public class Java_lab_2 {
   }
 
   static void printMenu() {
+    System.out.println("Press 1 to Enter Name");
+    System.out.println("To Search a Name Press 2");
+    System.out.println("To Remove a name Press 3");
+    System.out.println("To Exit press 4");
     System.out.print("Enter option: ");
+
   }
 
   static void addName() {

@@ -4,6 +4,7 @@ import java.util.*;
 public class Java_Lab_1 {
     public static void main(String[] args) {
         Scanner scan = new Scanner(System.in);
+        // Taking the user input for age name gender state
         System.out.print("Age: ");
         int age = scan.nextInt();
         scan.nextLine();
@@ -14,18 +15,21 @@ public class Java_Lab_1 {
         System.out.print("State: ");
         String state = scan.nextLine();
 
+        // print the given name age gender state
         System.out.println("Name: " + name);
         System.out.println("Age : " + age); 
         System.out.println("Gender: " + gender); 
         System.out.println("State: " + state);
         gender = gender.toLowerCase();
         
+        // change the f and m to FEMALE and MALE
         if (gender.equals("m")) {
             System.out.println("Gender: MALE");
         } else if (gender.equals("f")) {
             System.out.println("Gender: FEMALE");
         }
 
+        // Switch case to check for the part of India the state is in 
         switch (state) {
             case "Tamil Nadu":
             case "Kerala":
@@ -53,6 +57,7 @@ public class Java_Lab_1 {
                  System.out.println("The student is from Eastern state of India");    
                  System.out.println("The details of the student is: " + "\n" + age + "\n"+ name + "\n" + gender);    
         }
+        scan.close();
  
     
 }

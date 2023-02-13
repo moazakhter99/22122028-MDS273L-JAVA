@@ -26,6 +26,7 @@ public class Java_lab_2 {
     } while (count != 4);
   }
 
+  // function to take in user input choice
   static void printMenu() {
     System.out.println("Press 1 to Enter Name");
     System.out.println("To Search a Name Press 2");
@@ -35,6 +36,7 @@ public class Java_lab_2 {
 
   }
 
+  // function to add user given name to the lsit
   static void addName() {
     System.out.print("Enter a name: ");
     String name = sc.next();
@@ -46,6 +48,7 @@ public class Java_lab_2 {
     }
   }
 
+  // function to search the name if it exists in the litst
   static void searchName() {
     System.out.print("Enter the name: ");
     String name = sc.next();
@@ -62,6 +65,7 @@ public class Java_lab_2 {
     }
   }
 
+  // function to remove the name from the list
   static void removeName() {
     System.out.print("Enter a name to remove: ");
     String name = sc.next();
@@ -82,6 +86,7 @@ public class Java_lab_2 {
     }
   }
 
+  // function to check weather the name exists or not
   static boolean isNameExists(String name) {
     for (int i = 0; i < count; i++) {
       if (names[i].equals(name)) {

@@ -22,12 +22,8 @@ In the end, you will have
 - A menu-driven main method implementing the functions and functionality
 - Plan your program with a flow chart before starting with coding.
 - Since you are using functions, plan what should be the returning values and how to implement them.
-- This is
-- innest
-how about
-these ones
 
-## code Output
+## Code Output
 
 Press 1 to Enter Student detail
 Press 2 to Search for a name

@@ -23,8 +23,8 @@ In the end, you will have
 - Plan your program with a flow chart before starting with coding.
 - Since you are using functions, plan what should be the returning values and how to implement them.
 
-## code Output
-
+## Code Output
+- Output
 Press 1 to Enter Student detail
 Press 2 to Search for a name
 Press 3 to display a name

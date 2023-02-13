@@ -22,10 +22,11 @@ In the end, you will have
 - A menu-driven main method implementing the functions and functionality
 - Plan your program with a flow chart before starting with coding.
 - Since you are using functions, plan what should be the returning values and how to implement them.
+- This is
+- innest
 
-## Code Output
-- Output
-\
+## code Output
+
 Press 1 to Enter Student detail
 Press 2 to Search for a name
 Press 3 to display a name
@@ -125,7 +126,7 @@ Registration No: 22111005
 Email id: amitrana@gmail.com
 Class: 2 BBA Law
 Department: Amit
------------------------------------------------------/
+/-----------------------------------------------------
 Enter option: 4
 /-----------------------------------------------------
 Exiting Program

@@ -29,7 +29,7 @@ Press 1 to Enter Student detail
 Press 2 to Search for a name
 Press 3 to display a name
 Press 4 to exit
-/-----------------------------------------------------
+
 Enter option: 1
 /-----------------------------------------------------
 Enter the Student information

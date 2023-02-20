@@ -14,4 +14,4 @@ Assume that you can divide the states among India into different regions (North,
 Identify if the employee belongs to the top MNC Companies (Facebook, Google, Microsoft, Samsung, IBM, Apple); if so, print a message "The employee is working in Top MNC Companies".
 
 
-![alt text]([https://drive.google.com/file/d/1sGN5aaF8beCN2EC2DHMwkMLKbgZICAig/view?usp=share_link](https://drive.google.com/drive/priority))
+![alt text](https://drive.google.com/drive/priority)

@@ -2,7 +2,8 @@
 
 <br>Below is an encryption/decryption standard in which the letters in the message will be replaced with the letters in the cypher row
 
-![alt text]("C:\Users\moaza\OneDrive\Pictures\Screenshots\Screenshot_20230306_132606.png")
+![alt text](C:\Users\moaza\OneDrive\Pictures\Screenshots\Screenshot_20230306_132606.png)
+<img src="C:\Users\moaza\OneDrive\Pictures\Screenshots\Screenshot_20230306_132606.png" width="128"/>
 
 <br>Plaintext:  THE QUICK BROWN FOX JUMPS OVER THE LAZY DOG
 <br>Ciphertext: QEB NRFZH YOLTK CLU GRJMP LSBO QEB IXWV ALD

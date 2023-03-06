@@ -2,8 +2,7 @@
 
 <br>Below is an encryption/decryption standard in which the letters in the message will be replaced with the letters in the cypher row
 
-
-<img src="C:\Users\moaza\OneDrive\Pictures\Screenshots\Screenshot_20230306_132606.png" width="128"/>
+![alt text](https://github.com/moazakhter99/22122028-MDS273L-JAVA/blob/master/Misc/Screenshot_20230306_132606.png)
 
 <br>Plaintext:  THE QUICK BROWN FOX JUMPS OVER THE LAZY DOG
 <br>Ciphertext: QEB NRFZH YOLTK CLU GRJMP LSBO QEB IXWV ALD

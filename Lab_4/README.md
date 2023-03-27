@@ -250,4 +250,4 @@ Write a JAVA Menu driven program that does the following:
 
 ## Flowchart
 
-![alt text](https://github.com/moazakhter99/22122028-MDS273L-JAVA/blob/master/Lab_FlowChart/Java_lab_4.drawio.png)
+![alt text](https://github.com/moazakhter99/22122028-MDS273L-JAVA/blob/master/Lab_FlowChart/Java_lab_4_flowchart.png)

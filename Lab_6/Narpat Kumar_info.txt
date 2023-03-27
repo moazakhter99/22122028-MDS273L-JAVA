@@ -1,0 +1,6 @@
+Name: Narpat Kumar
+reg No.: 22122031
+email: narpat@gmail.com
+phone: 2211335544
+Class: MSDS A
+Department: Data Science

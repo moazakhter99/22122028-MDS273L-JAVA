@@ -1,0 +1,6 @@
+Name: Moaz Akhter
+reg No.: 22122028
+email: moaz@gmail.com
+phone: 8877556699
+Class: MSDS A
+Department: Data Science

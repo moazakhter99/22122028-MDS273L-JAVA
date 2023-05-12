@@ -130,3 +130,5 @@ Enter option: 4
 Exiting Program
 
 ## Flow Chart
+
+![alt text](https://github.com/moazakhter99/22122028-MDS273L-JAVA/blob/master/Lab_FlowChart/Java_lab_3_flowchart.png)

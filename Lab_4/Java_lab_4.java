@@ -1,6 +1,6 @@
 package Java_Lab.Lab_4;
-import java.util.*;
 
+import java.util.*;
 
 public class Java_lab_4 {
 
@@ -22,15 +22,14 @@ public class Java_lab_4 {
         if (amt > balance) {
             System.out.println("Your Balance is Low");
             return false;
-        }
-        else {
-        balance  = balance - amt;
-        System.out.println("The money has been withdrawn.");
-        System.out.println("The balance has been updated.");
-        return true;
+        } else {
+            balance = balance - amt;
+            System.out.println("The money has been withdrawn.");
+            System.out.println("The balance has been updated.");
+            return true;
         }
 
-    } 
+    }
 
     static void deposit(int amt) {
         balance = balance + amt;
@@ -39,12 +38,12 @@ public class Java_lab_4 {
     }
 
     static void tranHistory(String[] tranType, int[] tranHistory, int[] bal, int con) {
-        System.out.printf("%-10s" + "%-10s" + "%-10s"+"\n", "Wd/Dp","Amount","Balance");
+        System.out.printf("%-10s" + "%-10s" + "%-10s" + "\n", "Wd/Dp", "Amount", "Balance");
         for (int i = 0; i < con; i++) {
-            System.out.printf("%-10s" + "%-10d" + "%-10d"+"\n", tranType[i],tranHistory[i],bal[i]);
+            System.out.printf("%-10s" + "%-10d" + "%-10d" + "\n", tranType[i], tranHistory[i], bal[i]);
         }
     }
-    
+
     static void summary(String[] Type, int[] History, int[] bal, int con) {
         System.out.println("Account Holder Name: " + accName);
         System.out.println("Account No.: " + accNo);
@@ -53,9 +52,8 @@ public class Java_lab_4 {
         tranHistory(Type, History, bal, con);
     }
 
-
     public static void main(String[] args) {
-        int[]  transactionAmt = new int[100];
+        int[] transactionAmt = new int[100];
         String[] transactionType = new String[100];
         int[] tranBalance = new int[100];
         System.out.println("Enter your info to initialize your account");
@@ -71,47 +69,46 @@ public class Java_lab_4 {
             System.out.println("Press 5 to exit the program");
             System.out.println("Enter your choice: ");
             choice = scan.nextInt();
-        switch(choice) {
-            case 1:
-            System.out.println("Enter your amount: ");
-            int withAmt = scan.nextInt();
-            Boolean bool =  withdraw(withAmt);
-            System.out.println();
-            if (bool == true) {
-            transactionAmt[count] = withAmt;
-            transactionType[count] = "Withdraw";
-            tranBalance[count] = balance;
-            count += 1;
+            switch (choice) {
+                case 1:
+                    System.out.println("Enter your amount: ");
+                    int withAmt = scan.nextInt();
+                    Boolean bool = withdraw(withAmt);
+                    System.out.println();
+                    if (bool == true) {
+                        transactionAmt[count] = withAmt;
+                        transactionType[count] = "Withdraw";
+                        tranBalance[count] = balance;
+                        count += 1;
+                    }
+                    break;
+                case 2:
+                    System.out.println("Enter your amount: ");
+                    int depAmt = scan.nextInt();
+                    deposit(depAmt);
+                    System.out.println();
+                    transactionAmt[count] = depAmt;
+                    transactionType[count] = "Deposit";
+                    tranBalance[count] = balance;
+                    count += 1;
+                    break;
+                case 3:
+                    tranHistory(transactionType, transactionAmt, tranBalance, count);
+                    System.out.println();
+                    break;
+                case 4:
+                    summary(transactionType, transactionAmt, tranBalance, count);
+                    System.out.println();
+                    break;
+                case 5:
+                    break;
+                default:
+                    System.out.println("Wrong choice Input");
+                    break;
+
             }
-            break;
-            case 2:
-            System.out.println("Enter your amount: ");
-            int depAmt = scan.nextInt();
-            deposit(depAmt);
-            System.out.println();
-            transactionAmt[count] = depAmt;
-            transactionType[count] = "Deposit";
-            tranBalance[count] = balance;
-            count += 1;
-            break;
-            case 3:
-            tranHistory(transactionType,transactionAmt, tranBalance, count);
-            System.out.println();
-            break;
-            case 4:
-            summary(transactionType,transactionAmt, tranBalance, count);
-            System.out.println();
-            break;
-            case 5:
-            break;
-            default:
-            System.out.println("Wrong choice Input");
-            break;
-
-        }
-    } while (choice != 5);
-
+        } while (choice != 5);
 
     }
-    
+
 }

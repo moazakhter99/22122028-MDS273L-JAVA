@@ -95,5 +95,5 @@ public class Java_lab_2 {
     }
     return false;
   }
-    
+
 }

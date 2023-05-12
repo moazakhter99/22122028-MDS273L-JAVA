@@ -167,7 +167,7 @@ public class Java_lab_7 {
                     int v = 0;
                     int v1 = 0;
                     while (scan.hasNextLine()) {
-                        String[] row = scan.nextLine(). split(",");
+                        String[] row = scan.nextLine().split(",");
                         sepalLen[i] = Float.parseFloat(row[1]);
                         sepalWid[i] = Float.parseFloat(row[2]);
                         petalLen[i] = Float.parseFloat(row[3]);
@@ -279,6 +279,5 @@ public class Java_lab_7 {
         }
         return max;
     }
-
 
 }

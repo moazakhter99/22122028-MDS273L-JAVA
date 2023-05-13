@@ -1,0 +1,7 @@
+
+Sepal Length
+Mean: 5.8433356
+Median: 5.8
+Mode: 5.0
+Minimum Value: 4.3
+Maximum value: 7.9

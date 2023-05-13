@@ -1,0 +1,7 @@
+
+Sepal Width of Setosa
+Mean: 3.418
+Median: 3.4
+Mode: 3.4
+Minimum Value: 2.3
+Maximum value: 4.4

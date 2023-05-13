@@ -1,0 +1,7 @@
+
+Petal Length
+Mean: 3.7586665
+Median: 4.3500004
+Mode: 1.5
+Minimum Value: 1.0
+Maximum value: 6.9

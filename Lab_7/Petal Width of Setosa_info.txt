@@ -1,0 +1,7 @@
+
+Petal Width of Setosa
+Mean: 0.24399994
+Median: 0.2
+Mode: 0.2
+Minimum Value: 0.1
+Maximum value: 0.6

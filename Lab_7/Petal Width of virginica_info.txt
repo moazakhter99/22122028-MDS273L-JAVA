@@ -1,0 +1,7 @@
+
+Petal Width of virginica
+Mean: 2.0260003
+Median: 2.0
+Mode: 1.8
+Minimum Value: 1.4
+Maximum value: 2.5

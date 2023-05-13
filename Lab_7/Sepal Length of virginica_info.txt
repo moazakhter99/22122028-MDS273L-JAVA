@@ -1,0 +1,7 @@
+
+Sepal Length of virginica
+Mean: 6.5880003
+Median: 6.5
+Mode: 6.3
+Minimum Value: 4.9
+Maximum value: 7.9

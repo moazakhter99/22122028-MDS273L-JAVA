@@ -1,0 +1,7 @@
+
+Sepal Width of Versicolor
+Mean: 2.77
+Median: 2.8
+Mode: 3.0
+Minimum Value: 2.0
+Maximum value: 3.4

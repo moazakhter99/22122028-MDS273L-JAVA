@@ -1,0 +1,7 @@
+
+Sepal Length of Setosa
+Mean: 5.0060005
+Median: 5.0
+Mode: 5.0
+Minimum Value: 4.3
+Maximum value: 5.8

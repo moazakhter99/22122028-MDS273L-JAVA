@@ -1,0 +1,7 @@
+
+Sepal Length of Versicolor
+Mean: 5.9360003
+Median: 5.9
+Mode: 5.5
+Minimum Value: 4.9
+Maximum value: 7.0

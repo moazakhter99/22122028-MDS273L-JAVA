@@ -1,0 +1,7 @@
+
+Petal Length of Versicolor
+Mean: 4.26
+Median: 4.3500004
+Mode: 4.5
+Minimum Value: 3.0
+Maximum value: 5.1

@@ -1,0 +1,7 @@
+
+Petal Length of virginica
+Mean: 5.5520005
+Median: 5.55
+Mode: 5.1
+Minimum Value: 4.5
+Maximum value: 6.9

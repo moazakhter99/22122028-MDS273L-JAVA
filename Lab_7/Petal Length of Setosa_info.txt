@@ -1,0 +1,7 @@
+
+Petal Length of Setosa
+Mean: 1.4639996
+Median: 1.5
+Mode: 1.5
+Minimum Value: 1.0
+Maximum value: 1.9

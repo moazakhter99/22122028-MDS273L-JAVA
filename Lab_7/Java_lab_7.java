@@ -1,6 +1,7 @@
 package Java_Lab.Lab_7;
 
 import java.io.File;
+import java.io.FileWriter;
 import java.util.Arrays;
 import java.util.Scanner;
 
@@ -32,40 +33,24 @@ public class Java_lab_7 {
 
             switch (choice) {
                 case 1:
-                    System.out.println("For Sepal Length");
-                    System.out.println("Mean: " + mean(sepalLen));
-                    System.out.println("Median: " + median(sepalLen));
-                    System.out.println("Mode: " + mode(sepalLen)[0]);
-                    System.out.println("Minimum Value: " + min(sepalLen));
-                    System.out.println("Maximum value: " + max(sepalLen));
-                    System.out.println();
+                    String st = ToString("Sepal Length", sepalLen);
+                    System.out.println(st);
+                    choose("Sepal Length", sepalLen);
                     break;
                 case 2:
-                    System.out.println("For Sepal Width");
-                    System.out.println("Mean: " + mean(sepalWid));
-                    System.out.println("Median: " + median(sepalWid));
-                    System.out.println("Mode: " + mode(sepalWid)[0]);
-                    System.out.println("Minimum Value: " + min(sepalWid));
-                    System.out.println("Maximum value: " + max(sepalWid));
-                    System.out.println();
+                String st1 = ToString("Sepal Width", sepalWid);
+                System.out.println(st1);
+                choose("Sepal Width", sepalWid);
                     break;
                 case 3:
-                    System.out.println("For Petal Length");
-                    System.out.println("Mean: " + mean(petalLen));
-                    System.out.println("Median: " + median(petalLen));
-                    System.out.println("Mode: " + mode(petalLen)[0]);
-                    System.out.println("Minimum Value: " + min(petalLen));
-                    System.out.println("Maximum value: " + max(petalLen));
-                    System.out.println();
+                String st2 = ToString("Petal Length", petalLen);
+                System.out.println(st2);
+                choose("Petal Length", petalLen);
                     break;
                 case 4:
-                    System.out.println("For Petal Width");
-                    System.out.println("Mean: " + mean(petalWid));
-                    System.out.println("Median: " + median(petalWid));
-                    System.out.println("Mode: " + mode(petalWid)[0]);
-                    System.out.println("Minimum Value: " + min(petalWid));
-                    System.out.println("Maximum value: " + max(petalWid));
-                    System.out.println();
+                String st3 = ToString("Petal Width", petalWid);
+                System.out.println(st3);
+                choose("Petal Width", petalWid);
                     break;
                 case 5:
                     selectspec("Setosa");
@@ -90,7 +75,7 @@ public class Java_lab_7 {
     public static void selectspec(String spec) {
         int choice;
         do {
-            System.out.println("Press 1 for Sepel Length for " + spec);
+            System.out.println("\nPress 1 for Sepel Length for " + spec);
             System.out.println("Press 2 for Sepel Width for " + spec);
             System.out.println("Press 3 for Petal Length " + spec);
             System.out.println("Press 4 for Petal Width " + spec);
@@ -110,40 +95,24 @@ public class Java_lab_7 {
 
             switch (choice) {
                 case 1:
-                    System.out.println("For Sepal Length");
-                    System.out.println("Mean: " + mean(spec2[0]));
-                    System.out.println("Median: " + median(spec2[0]));
-                    System.out.println("Mode: " + mode(spec2[0])[0]);
-                    System.out.println("Minimum Value: " + min(spec2[0]));
-                    System.out.println("Maximum value: " + max(spec2[0]));
-                    System.out.println();
+                String st = ToString("Sepal Length of " + spec, spec2[0]);
+                System.out.println(st);
+                choose("Sepal Length of " + spec, spec2[0]);
                     break;
                 case 2:
-                    System.out.println("For Sepal Width");
-                    System.out.println("Mean: " + mean(spec2[1]));
-                    System.out.println("Median: " + median(spec2[1]));
-                    System.out.println("Mode: " + mode(spec2[1])[0]);
-                    System.out.println("Minimum Value: " + min(spec2[1]));
-                    System.out.println("Maximum value: " + max(spec2[1]));
-                    System.out.println();
+                String st1 = ToString("Sepal Width of " + spec, spec2[1]);
+                System.out.println(st1);
+                choose("Sepal Width of " + spec, spec2[1]);
                     break;
                 case 3:
-                    System.out.println("For Petal Length");
-                    System.out.println("Mean: " + mean(spec2[2]));
-                    System.out.println("Median: " + median(spec2[2]));
-                    System.out.println("Mode: " + mode(spec2[2])[0]);
-                    System.out.println("Minimum Value: " + min(spec2[2]));
-                    System.out.println("Maximum value: " + max(spec2[2]));
-                    System.out.println();
+                String st2 = ToString("Petal Length of " + spec, spec2[2]);
+                System.out.println(st2);
+                choose("Petal Length of " + spec, spec2[2]);
                     break;
                 case 4:
-                    System.out.println("For Petal Width");
-                    System.out.println("Mean: " + mean(spec2[3]));
-                    System.out.println("Median: " + median(spec2[3]));
-                    System.out.println("Mode: " + mode(spec2[3])[0]);
-                    System.out.println("Minimum Value: " + min(spec2[3]));
-                    System.out.println("Maximum value: " + max(spec2[3]));
-                    System.out.println();
+                String st3 = ToString("Petal Width of " + spec, spec2[3]);
+                System.out.println(st3);
+                choose("Petal Width of " + spec, spec2[3]);
                     break;
                 case 0:
                     break;
@@ -278,6 +247,60 @@ public class Java_lab_7 {
             }
         }
         return max;
+    }
+
+    static void createFile(String fileName) {
+
+    }
+
+    protected static String ToString(String info, Float[] Array) {
+        String toFile = "\n" + info + "\nMean: " + mean(Array) + "\nMedian: " + median(Array)
+        + "\nMode: " + mode(Array)[0] + "\nMinimum Value: " + min(Array) + "\nMaximum value: "
+         + max(Array) + "\n";
+         return toFile;
+    }
+
+    static void writeToFile(String name, String content) {
+        /*
+         * Create a file with the name_info
+         * And wite the info to the file
+         */
+        String fileName = name + "_info.txt";
+        String filepath = "Java_Lab\\Lab_7\\" + fileName;
+        try {
+            File file = new File(filepath);
+
+            if (file.exists()) {
+                System.out.println("File Already exists");
+            } else {
+                System.out.println("File Does not exist");
+                file.createNewFile();
+            }
+            if (file.canWrite()) {
+                FileWriter writeInFile = new FileWriter(file);
+                writeInFile.write(content);
+                writeInFile.close();
+            } else {
+                System.out.println("Could not write in file");
+            }
+        } catch (Exception error) {
+            System.out.println(error);
+        }
+
+    }
+
+    static void choose(String name, Float[] arr) {
+        System.out.println("Do You want to write it to file [y/n]: ");
+        String choice = scan.nextLine().toLowerCase();
+
+        switch (choice) {
+            case "y":
+            String toFile = ToString(name, arr);
+            writeToFile(name, toFile);
+            break;
+            case "n":
+            break;
+        }
     }
 
 }

@@ -1,0 +1,7 @@
+
+Sepal Width of virginica
+Mean: 2.9739997
+Median: 3.0
+Mode: 3.0
+Minimum Value: 2.2
+Maximum value: 3.8
